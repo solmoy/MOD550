@@ -30,7 +30,7 @@ plt.tight_layout()
 '''---------------------------------------------------------------------
 Program that writes an assesment of 3 different Github repositories
 ---------------------------------------------------------------------'''
-#Save string a s text file
+#Save string as a text file
 
 text = ''' WOTD
 Users: solmoy and pjheden Repo: WOTD
@@ -85,6 +85,7 @@ There is good documentations in the beginning and a lot of comments in the code 
 - Maintainability:
  Here I am also not sure how maintanable the set up is. And it is worth noting that the over 250 commits to the repo has been done at least 5 years ago. So it is quite old. '''
 
-#saves the text to a file
-with open('assesment.txt', 'w') as f:
+
+with open('/Users/austbo/Desktop/MOD550/data/assesment.txt', 'w') as f:
     f.write(text)
+
